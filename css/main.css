@@ -11,3 +11,12 @@
 #title_box{
     display: inline-block;
 }
+
+/* CONTENT */
+
+#search_results{
+    height: 500px;
+    border: solid black 2px;
+    padding: 5px;
+    margin: 5px 1px;
+}
