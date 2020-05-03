@@ -1,0 +1,13 @@
+
+/* HEADER */
+
+#logo{
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#title_box{
+    display: inline-block;
+}
