@@ -12,6 +12,15 @@
     display: inline-block;
 }
 
+#app_title{
+    font: "Verdana";
+    font-size: 30px;
+    letter-spacing: 4px;
+    background: rgb(4, 109, 122);
+    color: white;
+    text-align: center;
+}
+
 /* CONTENT */
 
 #search_results{
