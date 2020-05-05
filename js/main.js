@@ -8,21 +8,31 @@ $(document).ready(function(){
     //Load JSON
     var getJSON = $.getJSON("db/films.json", function(data){ 
         
-        console.log(data);
-
         var films = data.film;
 
         for(var film in films){
             search_results.append(
-                "<p class= 'film_box'> Name: "+ films[film].name + "</p>" +
-                "<p class= 'film_box'> Year: "+ films[film].year + "</p>" +
-                "<p class= 'film_box'> Director: "+ films[film].director + "</p>" +
-                "<p class= 'film_box'> Screenwriter: "+ films[film].screenwriter + "</p>" +
-                "<p class= 'film_box'> Story by: "+ films[film].stroyby + "</p>" 
+                "<p class= 'film_box'> Name: "+ films[film].name + "<br>" +
+                "Year: "+ films[film].year + "<br>" +
+                "Director: "+ films[film].director + "<br>" +
+                "Screenwriter: "+ films[film].screenwriter + "<br>" +
+                "Story by: "+ films[film].stroyby + "</p>" 
                 );
         }
 
+        $(".film_box").on("mouseenter", function(){
+            $(this).css("background","black")
+                .css("color", "white");
+        });
+
+        $(".film_box").on("mouseleave", function(){
+            $(this).css("background","white")
+                .css("color", "black");
+        });
+    
+
     });
 
+    
 
 });
