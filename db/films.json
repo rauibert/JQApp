@@ -1,0 +1,21 @@
+
+{
+        "film":[
+            {
+                "id": "1",
+                "name": "Episode IV – A New Hope",
+                "year": "1977",
+                "director": "George Lucas", 
+                "screenwriter": "George Lucas",
+                "storyby": "George Lucas"
+            },
+            {
+                "id": "2",
+                "name": "Episode V – The Empire Strikes Back",
+                "year": "1980",
+                "director": "Irvin Kershner", 
+                "screenwriter": "Leigh Brackett & Lawrence Kasdan",
+                "storyby": "George Lucas"
+            }
+        ]    
+}
