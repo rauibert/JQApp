@@ -16,7 +16,7 @@ $(document).ready(function(){
                 "Year: "+ films[film].year + "<br>" +
                 "Director: "+ films[film].director + "<br>" +
                 "Screenwriter: "+ films[film].screenwriter + "<br>" +
-                "Story by: "+ films[film].stroyby + "</p>" 
+                "Story by: "+ films[film].storyby + "</p>" 
                 );
         }
 
@@ -32,6 +32,7 @@ $(document).ready(function(){
     
 
     });
+
 
     
 
