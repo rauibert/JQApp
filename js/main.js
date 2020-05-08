@@ -26,7 +26,7 @@ $(document).ready(function(){
         });
 
         $(".film_box").on("mouseleave", function(){
-            $(this).css("background","#7bb3bb")
+            $(this).css("background","#b2e6ee")
                 .css("color", "black");
         });
     
