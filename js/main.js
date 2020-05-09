@@ -21,12 +21,12 @@ $(document).ready(function(){
         }
 
         $(".film_box").on("mouseenter", function(){
-            $(this).css("background","rgb(4, 109, 122)")
+            $(this).css("background","#d45b07")
                 .css("color", "white");
         });
 
         $(".film_box").on("mouseleave", function(){
-            $(this).css("background","#b2e6ee")
+            $(this).css("background","#d19b07")
                 .css("color", "black");
         });
     

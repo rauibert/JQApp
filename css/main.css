@@ -16,7 +16,7 @@
     font: "Verdana";
     font-size: 30px;
     letter-spacing: 4px;
-    background: rgb(4, 109, 122);
+    background: #d45b07;
     color: white;
     text-align: center;
 }
@@ -47,11 +47,11 @@
 }
 
 .film_box{
-    border: solid rgb(4, 109, 122) 1px;
+    border: solid rgb(134, 73, 3) 1px;
     padding: 10px;
     margin: 8px 2px;
     border-radius: 25px;
-    background: #b2e6ee;
-    box-shadow: 0 0 3px rgb(114, 165, 150), 0 0 5px rgb(196, 233, 187);
+    background: #d19b07;
+    box-shadow: 0 0 3px rgb(209, 197, 144), 0 0 5px rgb(233, 230, 187);
 }
 
